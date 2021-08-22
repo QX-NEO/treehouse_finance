@@ -6,7 +6,8 @@ import subprocess
 import os
 import pandas as pd
 
-path = 'C:/Users/neo qi xiang/Desktop/coding challenge/*.py'
+#path = 'C:/Users/neo qi xiang/Desktop/coding challenge/*.py'
+path = 'my-python-project/**/*.py'
 
 def get_pyfiles(pat):
     py_files = glob.glob(path, recursive=True)
